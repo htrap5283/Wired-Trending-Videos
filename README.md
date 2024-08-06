@@ -20,7 +20,7 @@
 
 ## 🚀 Introduction
 
-**WiredTrendingVideos** is a mobile application developed using React Native. It retrieves and displays trending videos from the API of  Wired Magazine’s channel on DailyMotion.com. Users can view a list of videos, see detailed information about each video, and add videos to their favorites list, which is persisted using Firebase Firestore.
+**WiredTrendingVideos** is a mobile application developed using React Native. It retrieves and displays trending videos from the API of Wired Magazine’s channel on DailyMotion.com. Users can view a list of videos, see detailed information about each video, and add videos to their favorites list, which is persisted using Firebase Firestore.
 
 ## 🌟 Features
 
@@ -44,26 +44,22 @@ To set up the project locally, follow these steps:
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/htrap5283/Wired-Trending-Videos.git
-   cd WiredTrendingVideos
-   ```
+```bash
+git clone https://github.com/htrap5283/Wired-Trending-Videos.git
+cd WiredTrendingVideos
+```
 
-   Install Dependencies
-
+Install Dependencies
 
 Using npm:
 
-bash
-```
-Copy code
+```bash
 npm install
 ```
 
 Using Yarn:
-```
-bash
-Copy code
+
+```bash
 yarn install
 ```
 
@@ -80,9 +76,7 @@ Replace sensitive information such as Firebase API keys in config/FirebaseConfig
 🏃 Running the App
 To start the development server and run your app on any device using Expo's tunnel feature, use the following command:
 
-
-```
-Copy code
+```bash
 npx expo start --tunnel
 ```
 
@@ -91,8 +85,7 @@ Start the Expo Development Server:
 
 Run the following command in the root directory of your project:
 
-```
-Copy code
+```bash
 npx expo start --tunnel
 ```
 
@@ -150,6 +143,7 @@ Ensure your Firebase configuration is set correctly in config/FirebaseConfig.js:
 
 FirebaseConfig.js file:
 javascript
+
 ```Copy code
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -204,7 +198,7 @@ Detail Screen
 
 Favorite Screen
 
-Note: Update the screenshots with actual images from your app.
+<!-- Note: Update the screenshots with actual images from your app. -->
 
 🤝 Contributing
 Contributions are always welcome! Here are some ways you can help:
@@ -228,4 +222,3 @@ If you have any questions or feedback, feel free to reach out:
 
 Email: parthjp5283@gmail.com
 GitHub: htrap5283
-
